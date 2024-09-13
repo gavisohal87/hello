@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ChevronRight, Mail, Phone } from 'lucide-react';
+import { ThreeDCardDemo } from '@/components/Cards';
 
 export default function Component() {
   return (
@@ -39,34 +40,21 @@ export default function Component() {
           </p>
         </section>
 
-        <section id="products" className="mb-12">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+        <section id="products" className="mb-12 bg-slate-400 pb-8">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-6 pt-4 text-center ">
             Our Products
           </h3>
+          <div className='flex justify-center'>
           <div className="grid grid-cols-2 gap-6">
-            {['ERW Pipes', 'Iron Plates', 'Iron Sheets', 'Iron Rods'].map(
-              (product) => (
-                <div
-                  key={product}
-                  className="bg-white p-6 rounded-lg shadow-md border border-gray-200 hover:bg-blue-50"
-                >
-                  <h4 className="text-xl font-semibold text-green-700 mb-2">
-                    {product}
-                  </h4>
-                  <p className="text-gray-600 mb-4">
-                    High-quality {product.toLowerCase()} for various industrial
-                    applications.
-                  </p>
-                  <Link
-                    href="#"
-                    className="text-blue-600 hover:text-blue-800 inline-flex items-center"
-                  >
-                    Learn More <ChevronRight className="ml-1 h-4 w-4" />
-                  </Link>
-                </div>
-              )
-            )}
+          <ThreeDCardDemo title="ERW Pipes" subHeading="High-quality erw pipes for various industrial applications." link='https://img.freepik.com/premium-photo/large-steel-pipes-bunch-stock-illustration-image-ai-generated-art_856480-961.jpg'/>
+          <ThreeDCardDemo title="Iron Plates" subHeading="High-quality iron plates for various industrial applications." link='https://5.imimg.com/data5/SELLER/Default/2023/1/CT/EW/JG/8984314/black-iron-pipe.jpg'/>
+          <ThreeDCardDemo title="Iron Sheets" subHeading="High-quality iron sheets for various industrial applications"link=''/>
+          <ThreeDCardDemo title="Iron Rods" subHeading="High-quality iron rods for various industrial applications." link=''/>
+         
+                    
           </div>
+          </div>
+          
         </section>
 
         <section id="about" className="mb-12">
