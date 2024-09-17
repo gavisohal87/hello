@@ -52,7 +52,7 @@ export default function Component() {
             </div>
           </h3>
           <p className="text-lg md:text-xl text-white">
-            Discover our range of iron ERW pipes, plates, sheets, and rods.
+            Discover our  wide range of iron products.
           </p>
         </section>
 
@@ -70,16 +70,16 @@ export default function Component() {
               <ThreeDCardDemo
                 title="Iron Plates"
                 subHeading="High-quality iron plates for various industrial applications."
-                link="https://5.imimg.com/data5/SELLER/Default/2023/1/CT/EW/JG/8984314/black-iron-pipe.jpg"
+                link="https://static.wikia.nocookie.net/industrialist/images/5/51/Iron_Plate.png/revision/latest?cb=20240604092423"
               />
               <ThreeDCardDemo
-                title="Iron Sheets"
-                subHeading="High-quality iron sheets for various industrial applications"
-                link=""
+                title="Iron rods"
+                subHeading="High-quality iron rods for various industrial applications"
+                link="https://media.istockphoto.com/id/906641610/photo/metal-armature-metal-rods-3d-illustration.jpg?s=612x612&w=0&k=20&c=3HGFMsf-aoItlh-hat4xVk6EN8ByYjHomLh6-gHnFdI="
               />
               <ThreeDCardDemo
                 title="Iron Billets"
-                subHeading="High-quality iron rods for various industrial applications."
+                subHeading="High-quality iron billets for various industrial applications."
                 link="https://www.shutterstock.com/image-photo/iron-foundry-continuous-casting-machine-600nw-1724545600.jpg"
               />
             </div>
